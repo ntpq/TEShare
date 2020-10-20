@@ -1,0 +1,113 @@
+html {
+  background-color: #e3e3e3;
+  font-family: Kanit;
+}
+
+
+/* header */
+
+header {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-content: center;
+  height: 5rem;
+  margin: 3rem 3rem;
+}
+
+.logo {
+  width: 15rem;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  column-gap: 30px;
+  align-content: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 48px;
+}
+
+
+/* main */
+
+main {
+  font-size: 2rem;
+}
+
+main img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.input-name {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid;
+}
+
+.in-Block {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.search-box {
+  margin-left: 100px;
+  position: absolute;
+  z-index: 999;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+}
+
+.search-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-button>button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.input-name {
+  font-size: 2rem;
+  background-color: #e3e3e3;
+}
+
+
+/* result */
+
+.container-result {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  background-image: url(./images/tree-coin.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 100px;
+}
+
+.result-name {
+  justify-self: end;
+  margin-right: 10rem;
+}
+
+.result-company {
+  justify-self: start;
+}
